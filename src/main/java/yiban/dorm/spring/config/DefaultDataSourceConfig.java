@@ -22,7 +22,7 @@ public class DefaultDataSourceConfig {
 		BasicDataSource ds = new BasicDataSource();
 		ds.setUrl("jdbc:mysql://127.0.0.1:3306/dom_recommend?useSSL=false");
 		ds.setUsername("root");
-		ds.setPassword("voidPwd039");
+		ds.setPassword("233333333"); // TODO Private DB!
 		ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		return ds;
 	}
